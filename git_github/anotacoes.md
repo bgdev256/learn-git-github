@@ -24,6 +24,15 @@ Pode ser usado de duas formas:
 Um arquivo por vez: "git add nome_do_arquivo.extensão"
 Todos os arquivos do diretótio: "git add ."
 
+### Aprendizados
+>- O que são (e para que servem) sistemas de controle de versões e como eles podem ajudar o nosso fluxo de desenvolvimento.
+>>- Manter um histórico de alterações;
+>>- Ter controle sobre cada alteração no código;
+>>- Nos ajudam para que uma alteração de determinada pessoa não influencie na alteração realizada por outra e etc.
+>- O que é o Git e como instalá-lo;
+>- Criar um repositório Git com o comando git init;
+>- Como analisar o estado do nosso repositório através do comando git status.
+
 ## O que é um commit?
 > Commit é salvar um estado ou uma versão do código, de maneira a criar um histórico de alterações e um ponto de retorno caso necessário, como um checkpoint.
 
@@ -129,6 +138,17 @@ O que sei é que a primeira palavra por exemplo 'HEAD' -> está relacionado a lo
 >- Pequenas alterações;
 >- **Novas funcionalidades**;
 >- **Bugs corrigidos**.
+
+### Aprendizados
+>- Que um commit é a forma de salvar um estado ou versão do nosso código;
+>- Como adicionar arquivos para serem commitados com git add;
+>- Como commitar arquivos, utilizando o comando git commit;
+>- Como verificar o histórico de commits, através do git log e algumas de suas opções:
+>>- git log --oneline;
+>>- git log -p;
+>>- git log --pretty="parametros de formatação".
+>- Como fazer o Git não monitorar arquivos, através do .gitignore;
+>- Que não devemos realizar commit, ou seja, salvar um estado, da nossa aplicação não funcionando.
 
 ## REPOSITÓRIO REMOTO: Servidor de modificações
 >Serve para que  você possa salvar, acessar suas alterações e compartilhar com outras pessoas. Pelo jeito a estrutura de pastas são importantes, ou não, porque você pode colocar em qualquer outro lugar o servidor, se você for fazer um servidor local, para aprendizado assim como eu, seguindo o curso, é melhor fazer uma pasta fora da pasta que está os arquivos do projeto.
@@ -283,3 +303,13 @@ Neste momento será solicitado a sua senha, no windows abrirá uma janela, no li
 
 Pronto, seus arquivos foram enviados ao GitHub, não apenas os arquivos mas também os histórico de commit e modificações.
 
+### Aprendizados
+>- O que são repositórios remotos;
+>- Como criar um repositório Git sem uma cópia dos arquivos (com --bare ) para ser utilizado como servidor;
+>- Como adicionar links para os repositórios remotos, com o comando git remote add ;
+>- Como baixar um repositório pela primeira vez, clonando-o com o comando git clone ;
+>- Como trazer e enviar as nossas alterações para um repositório remoto, com git push ;
+>- Como atualizar o nosso repositório com os dados no repositório remoto, utilizando git pull ;
+>- O que é e para que serve o GitHub;
+>- Como criar um repositório no GitHub;
+>- Como adicionar um repositório do GitHub como repositório remoto.
