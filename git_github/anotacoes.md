@@ -257,4 +257,29 @@ Quando clonamos o repositório para o user2/ renomeamos a pasta, para projeto, m
 
 ## **PUSH = EMPURRAR** = ENVIAR AS MODIFICAÇÕES
 
-## **PULL = PUXA** = BAIXAR AS MODIFICAÇÕES     
+## **PULL = PUXA** = BAIXAR AS MODIFICAÇÕES
+
+### Fazendo PUSH para o GitHub com HTTPS
+
+> Copia o endereço do repositório no GitHub
+![git_https_copy](img/git_https_copy.png)
+
+>**Logado** ou seja na pasta onde se encontra os dados que você quer subir para o GitHub:
+![git_location](img/git_location.png)
+
+Utilize o seguinte comando com endereço copiado **https**:
+![git_add_github](img/git_add_github.png)
+
+O repositório remoto **ORIGIN** segundo o professor no qual estou acompanhando disse que é uma convesão padrão utilizar esse nome, mas nada impede de você mudar!
+
+
+### COMANDO: git push -u origin master
+> Padroniza o push sempre para este repositório e esta bransh! Mas nada impede de também não utilizar o -u e você por conta própria direcionar! 
+O professor disse que prefere não utilizar e ele mesmo direcionar, por questão de controle e certeza de direcionamento.
+
+![git_push_github](img/git_push_github.png)
+
+Neste momento será solicitado a sua senha, no windows abrirá uma janela, no linux, será solicitado no terminal de comando mesmo.
+
+Pronto, seus arquivos foram enviados ao GitHub, não apenas os arquivos mas também os histórico de commit e modificações.
+
