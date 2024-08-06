@@ -387,4 +387,7 @@ Alimentei mais alguns commit em cada uma das branch, e agora temos:
 >- Branch **lista**, possui dois commits independentes;
 ![git_visualizing7](img/git_visualizing7.png)
 
- 
+ ### COMANDO: git checkout -b new_branch || Comando para criar uma nova branch e entrar nela logo em seguida, um 'ATALHO'.
+Utilizando outro usuário no caso, simulado por uma outra pasta chamada '**user2**', utilzo o comando, para criar e entrar na nova branch **lista**.
+
+![git_checkout](img/git_checkout.png)
