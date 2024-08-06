@@ -313,3 +313,78 @@ Pronto, seus arquivos foram enviados ao GitHub, não apenas os arquivos mas tamb
 >- O que é e para que serve o GitHub;
 >- Como criar um repositório no GitHub;
 >- Como adicionar um repositório do GitHub como repositório remoto.
+
+## O que é bransh?
+É um conteúdo um pouco díficil de entender no começo, mas se trata de uma linha de desenvolvimento ou linha do tempo de um projeto, pode haver uma ou mais, que normalmente é:
+>- **Master** o que está em produção
+>- **Main**
+>- **Podem exister outras**, com conteúdos especificos para cada funcionalidade.
+
+O correto é para cada funcionalidade, criar uma nova branch, desta forma cada trabalho é separado em uma linha de desenvolvimento/produção/tempo único, e tudo é agrupado, quando é colocado na branch '**Master**', ou seja quando estiver pronto. Existem padrões de mercados para criar os nomes e cada empresa podem também possuir um padrão interno, geralmente segue desta forma:
+>- 'feature/nome_descritivo_da_funcionalidade' por exemplo: 'feature/titulo'
+
+### COMANDO: git branch
+Lista de branch no determinado diretório.
+
+![git_branch](img/git_branch.png)
+
+Conforme na imagem, pode se ver grifado de verde, é onde você estará trabalhando no momento.
+
+### Como criar um novo branch? COMANDO: git branch new_branch
+
+![git_branch_new](img/git_branch_new.png)
+
+Utilizando novamente o comando git branch, você conseguirá notar a diferença entre as cores, mostrando em qual branch está localizado.
+
+![git_branch2](img/git_branch2.png)
+
+### Como mudar de branch? COMANDO: git checkout nome_branch
+Desta forma é possível mudar a branch a ser trabalhada.
+
+![git_branch_checkout](img/git_branch_checkout.png)
+
+## Ferramenta Vizualizing git
+Utilize essa ferramenta para poder enxergar de maneira visual, o comportamento do git.
+
+https://git-school.github.io/visualizing-git/
+
+Assim que entra por padrão já estamos na branch **Master**
+
+![git_visualizing](img/git_visualizing.png)
+
+## Na prática: Criando uma nova branch:
+Criando um commit em branch **Master**:
+
+![git_visualizing2](img/git_visualizing2.png)
+
+
+Indo para branch **titulo** e criando um commit:
+
+![git_visualizing3](img/git_visualizing3.png)
+
+
+Veja que foi criada uma nova linha de desenvolvimento, ou seja, a branch t**itulo** não tem acesso ao commit que foi feito anteriormente na branch **master**, para ter acesso a ela, teria que ter feito o commit antes de criar a branch nova.
+
+![git_visualizing4](img/git_visualizing4.png)
+
+
+Agora, o primeiro commit que foi feito, o **titulo** tem acesso a esse conteudo, e a **master** continua o trabalho no qual não se relaciona com o **titulo**.
+
+![git_visualizing5](img/git_visualizing5.png)
+
+
+Desta forma, temos:
+
+>- Branch **titulo**, com dois commits independentes;
+>- Branch **master**, possui um novo commit;
+>- Branch **lista**, surge na terceira commit da **master**, e gera 2 commits independentes.
+![git_visualizing6](img/git_visualizing6.png)
+
+
+Alimentei mais alguns commit em cada uma das branch, e agora temos:
+>- Branch **titulo**, com três commits independentes;
+>- Branch **master**, possui três commits independentes;
+>- Branch **lista**, possui dois commits independentes;
+![git_visualizing7](img/git_visualizing7.png)
+
+ 
