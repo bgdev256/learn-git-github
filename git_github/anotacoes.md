@@ -391,3 +391,7 @@ Alimentei mais alguns commit em cada uma das branch, e agora temos:
 Utilizando outro usuário no caso, simulado por uma outra pasta chamada '**user2**', utilzo o comando, para criar e entrar na nova branch **lista**.
 
 ![git_checkout](img/git_checkout.png)
+
+Como ficou:
+
+![git_checkout_b_result](img/git_checkout_b_result.png)
